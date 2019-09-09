@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="software.app.takeaway.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <Spinner
+                android:id="@+id/classification1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/foolName1"
+                android:layout_width="116dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="名稱"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/foolPrice1"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="價格"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/add_b1"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_input_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/classification2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/foolName2"
+                android:layout_width="116dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="名稱"
+                android:inputType="textPersonName"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/foolPrice2"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="價格"
+                android:inputType="number"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/add_b2"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_input_add"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/classification3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/foolName3"
+                android:layout_width="116dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="名稱"
+                android:inputType="textPersonName"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/foolPrice3"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="價格"
+                android:inputType="number"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/add_b3"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_input_add"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/classification4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/foolName4"
+                android:layout_width="116dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="名稱"
+                android:inputType="textPersonName"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/foolPrice4"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="價格"
+                android:inputType="number"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/add_b4"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_input_add"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/classification5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/foolName5"
+                android:layout_width="116dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="名稱"
+                android:inputType="textPersonName"
+                android:visibility="invisible" />
+
+            <EditText
+                android:id="@+id/foolPrice5"
+                android:layout_width="75dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="價格"
+                android:inputType="number"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/add_b5"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_input_add"
+                android:visibility="invisible"
+                tools:layout_editor_absoluteX="328dp"
+                tools:layout_editor_absoluteY="13dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"></LinearLayout>
+
+            <Button
+                android:id="@+id/store_b"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text="儲存" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
